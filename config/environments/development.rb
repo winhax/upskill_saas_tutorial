@@ -73,4 +73,8 @@ Rails.application.configure do
 
   # Raise error when a before_action's only/except options reference missing actions
   config.action_controller.raise_on_missing_callback_actions = true
+  
+  # Test Host Clear Function
+  config.hosts << "444d5eb0d2b3454ab3664070a5f8d5b1.vfs.cloud9.us-east-2.amazonaws.com"
+  
 end
